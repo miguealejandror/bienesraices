@@ -171,7 +171,12 @@ img{
 
 
 /** Iconos Nosotros **/
-
+@media (min-width: 768px){
+    .iconos-nosotros{
+        display:flex;
+        justify-content: space-between;
+    }
+}
 .icono{
     text-align: center;
 }

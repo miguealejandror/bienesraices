@@ -168,7 +168,25 @@ img{
     /*Para que cuando seleciones cambie de color*/
 }
 
-
+.mobile-menu img{
+    width: 5rem;
+}
+@media (min-width: 768px){
+    .mobile-menu{
+        display: none;
+    }
+}
+.navegacion:target{
+    display: block;
+}
+.navegacion{
+    display: none;
+}
+@media (min-width: 768px){
+    .navegacion{
+        display: block;
+    }
+}
 
 /** Iconos Nosotros **/
 @media (min-width: 768px){
